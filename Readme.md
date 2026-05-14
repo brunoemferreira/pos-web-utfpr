@@ -260,7 +260,9 @@ Tópicos:
 ## <a id="links-uteis"></a>🚀 Links Úteis
 
 - 📌 **Site oficial do curso:** [UTFPR Pós-Graduação](https://pos-ead.gp.utfpr.edu.br/)
-- ⚙️ **Ambiente Virtual de Aprendizagem:** _[Adicionar link do Moodle/AVA se aplicável]_
+- 📌 **Portal de Cursos e Eventos:** [Site de Cursos Eventos](https://funtefpr.conveniar.com.br/Eventos/)
+- 📌 **Portal do aluno:** [Portal do Aluno UTFPR](https://www.utfpr.edu.br/alunos/portal-do-aluno/)
+- ⚙️ **Ambiente Virtual de Aprendizagem:** [Moodle UTFPR](https://moodle.utfpr.edu.br/)
 
 ---
 
