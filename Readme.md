@@ -64,14 +64,14 @@ Abaixo estão listadas todas as disciplinas do curso. **Clique na seta (`▶`) p
 
 Tópicos:
 
-- Configuração do Ambiente
-- 00 - Fundamentos da Internet
-- 01 - Fundamentos e Semântica com HTML5
-- 02 - Estilização Essencial e Box Model com CSS3
-- 03 - Layout Moderno: Flexbox e Grid
-- 04 - Design Responsivo e Acessibilidade
-- 05 - Interatividade: Animações e Efeitos Avançados
-- 06 - IA no Workflow: Prototipação e Otimização
+- [x] Configuração do Ambiente
+- [ ] 00 - Fundamentos da Internet
+- [ ] 01 - Fundamentos e Semântica com HTML5
+- [ ] 02 - Estilização Essencial e Box Model com CSS3
+- [ ] 03 - Layout Moderno: Flexbox e Grid
+- [ ] 04 - Design Responsivo e Acessibilidade
+- [ ] 05 - Interatividade: Animações e Efeitos Avançados
+- [ ] 06 - IA no Workflow: Prototipação e Otimização
 
 **Projetos e Atividades:**
 
