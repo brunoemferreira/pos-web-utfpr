@@ -66,6 +66,15 @@ Tópicos:
 
 - [x] Configuração do Ambiente
 - [ ] 00 - Fundamentos da Internet
+  - [x] Aula 1. O que é a Internet ?
+  - [x] Aula 2. História da Internet
+  - [x] Aula 3. Como a Internet Funciona
+  - [ ] Aula 4. HTTP
+  - [ ] Aula 5. DNS
+  - [ ] Aula 6. Web Hosting
+  - [x] Aula 7. Navegador para Devs
+  - [ ] Aula 8. Git e GitHub
+  - [ ] Laboratório
 - [ ] 01 - Fundamentos e Semântica com HTML5
 - [ ] 02 - Estilização Essencial e Box Model com CSS3
 - [ ] 03 - Layout Moderno: Flexbox e Grid
