@@ -59,12 +59,23 @@ Abaixo estão listadas todas as disciplinas do curso. **Clique na seta (`▶`) p
 
 > **Tecnologias:** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 >
-> **Status:** ⏳ Em andamento
+> **Status:** ⏳ Em andamento </br>
+> **Professores:** Prof. Dr. Andres Porfirio | Prof. Dr. Diego Marczal
+
+Tópicos:
+
+- Configuração do Ambiente
+- 00 - Fundamentos da Internet
+- 01 - Fundamentos e Semântica com HTML5
+- 02 - Estilização Essencial e Box Model com CSS3
+- 03 - Layout Moderno: Flexbox e Grid
+- 04 - Design Responsivo e Acessibilidade
+- 05 - Interatividade: Animações e Efeitos Avançados
+- 06 - IA no Workflow: Prototipação e Otimização
 
 **Projetos e Atividades:**
 
-- [ ] 🔗 Projeto 1: _[Adicionar link]_
-- [ ] 🔗 Atividade 1: _[Adicionar link]_
+- [ ] 🔗 Projeto : [Projeto com HTML e CSS]()
 
 </details>
 
