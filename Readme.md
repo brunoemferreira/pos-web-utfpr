@@ -6,7 +6,7 @@
 
 ### Universidade Tecnológica Federal do Paraná (UTFPR)
 
-👨‍🎓 **Aluno:** Bruno E. M. Ferreira &nbsp;|&nbsp; 🎓 **Turma:** 2026 &nbsp;|&nbsp; 📅 **Período:** Abril/2026 - Dezembro/2027
+👨‍🎓 **Aluno:** Bruno E. M. Ferreira &nbsp;|&nbsp; 🎓 **Turma:** 2026 &nbsp;|&nbsp; 📅 **Período:** Abril/2026 - Março/2028
 
 <br>
 
