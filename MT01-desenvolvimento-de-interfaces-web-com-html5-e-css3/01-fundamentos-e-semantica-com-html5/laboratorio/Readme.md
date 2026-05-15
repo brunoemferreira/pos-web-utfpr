@@ -9,6 +9,3 @@ O print de tela a seguir foi criado por inteligência artificial e refere-se a u
 1.  **Tarefa 1:** Analisar o layout e desenhar no papel/ferramenta digital quais tags semânticas serão usadas em cada área.
 2.  **Tarefa 2:** Codificar a estrutura no VS Code. Não é necessário CSS, apenas HTML bem estruturado.
 3.  **Tarefa 3:** Validar o código no [W3C Validator](https://validator.w3.org/) para garantir que a hierarquia está correta.
-
----
-*Desenvolvido durante a Pós-Graduação em Web da UTFPR.*
