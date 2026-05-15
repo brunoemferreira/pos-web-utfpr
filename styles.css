@@ -458,6 +458,7 @@ body {
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
+  flex-wrap: wrap;
 }
 
 .btn-action {
@@ -566,4 +567,42 @@ body {
     width: 100%;
     justify-content: flex-end;
   }
+
+  .final-project-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topic-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+/* =========================================
+   BADGES DE STATUS
+========================================= */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 10px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  
+  width: fit-content;
+}
+
+.status-badge.finished {
+  background-color: rgba(50, 205, 50, 0.15);
+  color: #32CD32;
+  border: 1px solid rgba(50, 205, 50, 0.3);
+}
+
+.status-badge.pending {
+  background-color: rgba(255, 69, 58, 0.15);
+  color: #FF453A;
+  border: 1px solid rgba(255, 69, 58, 0.3);
 }
