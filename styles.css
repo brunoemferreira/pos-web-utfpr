@@ -173,7 +173,7 @@ body {
 }
 
 .module-number {
-  background-color: var(--color-primary);
+  background-color: var(--module-color, var(--color-primary));
   color: var(--color-bg-body);
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-sm);
@@ -184,77 +184,31 @@ body {
 }
 
 /* Variantes de cores para módulos */
-.module-blue .module-number {
-  background-color: #00BFFF; /* Deep Sky Blue */
+.module-blue { --module-color: #00BFFF; }
+.module-green { --module-color: #32CD32; }
+.module-purple { --module-color: #9370DB; }
+.module-orange { --module-color: #FF8C00; }
+.module-cyan { --module-color: #00CED1; }
+.module-pink { --module-color: #FF69B4; }
+.module-indigo { --module-color: #8A2BE2; }
+.module-teal { --module-color: #008080; }
+.module-coral { --module-color: #FF7F50; }
+
+.module-section .module-number {
+  background-color: var(--module-color);
   color: #FFFFFF;
 }
 
-.module-blue .section-divider {
-  background: linear-gradient(90deg, #00BFFF 0%, transparent 100%);
+/* Fallback para o módulo 1 que usa a cor primária diretamente */
+.module-section:not([class*="module-"]) .module-number {
+  background-color: var(--color-primary);
+  color: var(--color-bg-body);
 }
 
-.module-green .module-number {
-  background-color: #32CD32; /* Lime Green */
-  color: #FFFFFF;
+.module-section .section-divider {
+  background: linear-gradient(90deg, var(--module-color, var(--color-primary)) 0%, transparent 100%);
 }
 
-.module-green .section-divider {
-  background: linear-gradient(90deg, #32CD32 0%, transparent 100%);
-}
-
-.module-purple .module-number {
-  background-color: #9370DB; /* Medium Slate Blue/Purple */
-  color: #FFFFFF;
-}
-
-.module-purple .section-divider {
-  background: linear-gradient(90deg, #9370DB 0%, transparent 100%);
-}
-
-.module-orange .module-number {
-  background-color: #FF8C00; 
-  color: #FFFFFF;
-}
-.module-orange .section-divider {
-  background: linear-gradient(90deg, #FF8C00 0%, transparent 100%);
-}
-
-.module-cyan .module-number {
-  background-color: #00CED1; 
-  color: #FFFFFF;
-}
-.module-cyan .section-divider {
-  background: linear-gradient(90deg, #00CED1 0%, transparent 100%);
-}
-
-.module-pink .module-number {
-  background-color: #FF69B4; 
-  color: #FFFFFF;
-}
-.module-pink .section-divider {
-  background: linear-gradient(90deg, #FF69B4 0%, transparent 100%);
-}
-
-.module-indigo .module-number {
-  background-color: #4B0082; 
-  color: #FFFFFF;
-}
-.module-indigo .section-divider {
-  background: linear-gradient(90deg, #4B0082 0%, transparent 100%);
-}
-
-.module-teal .module-number {
-  background-color: #008080; 
-  color: #FFFFFF;
-}
-.module-teal .section-divider {
-  background: linear-gradient(90deg, #008080 0%, transparent 100%);
-}
-
-.module-coral .module-number {
-  background-color: #FF7F50; 
-  color: #FFFFFF;
-}
 .module-coral .section-divider {
   background: linear-gradient(90deg, #FF7F50 0%, transparent 100%);
 }
@@ -336,8 +290,8 @@ body {
 
 .card:hover {
   transform: translateY(-8px);
-  border-color: var(--color-primary);
-  box-shadow: 0 10px 25px var(--color-shadow-hover);
+  border-color: var(--module-color, var(--color-primary));
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px var(--module-color, var(--color-primary));
 }
 
 .card-image-container {
@@ -345,7 +299,7 @@ body {
   height: 120px;
   overflow: hidden;
   position: relative;
-  border-bottom: var(--border-accent) solid var(--color-primary); 
+  border-bottom: var(--border-accent) solid var(--module-color, var(--color-primary)); 
   margin: 0; 
 }
 
@@ -403,7 +357,7 @@ body {
 
 .card-readme-link {
   font-size: 0.7rem;
-  color: var(--color-primary);
+  color: var(--module-color, var(--color-primary));
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -432,7 +386,7 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background: var(--color-primary);
+  background: var(--module-color, var(--color-primary));
   color: var(--color-text-button);
   font-weight: var(--font-weight-bold);
   font-size: 0.75rem;
