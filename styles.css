@@ -174,7 +174,7 @@ body {
 
 .module-number {
   background-color: var(--module-color, var(--color-primary));
-  color: var(--color-bg-body);
+  color: var(--module-text, var(--color-bg-body));
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-sm);
   font-size: var(--font-size-sm);
@@ -184,26 +184,22 @@ body {
 }
 
 /* Variantes de cores para módulos */
-.module-blue { --module-color: #00BFFF; }
-.module-green { --module-color: #32CD32; }
-.module-purple { --module-color: #9370DB; }
-.module-orange { --module-color: #FF8C00; }
-.module-cyan { --module-color: #00CED1; }
-.module-pink { --module-color: #FF69B4; }
-.module-indigo { --module-color: #8A2BE2; }
-.module-teal { --module-color: #008080; }
-.module-coral { --module-color: #FF7F50; }
+.module-blue   { --module-color: #00BFFF; --module-text: #FFFFFF; }
+.module-green  { --module-color: #32CD32; --module-text: #FFFFFF; }
+.module-purple { --module-color: #9370DB; --module-text: #FFFFFF; }
+.module-orange { --module-color: #FF8C00; --module-text: #FFFFFF; }
+.module-cyan   { --module-color: #00CED1; --module-text: #FFFFFF; }
+.module-pink   { --module-color: #FF69B4; --module-text: #FFFFFF; }
+.module-indigo { --module-color: #8A2BE2; --module-text: #FFFFFF; }
+.module-teal   { --module-color: #008080; --module-text: #FFFFFF; }
+.module-coral  { --module-color: #FF7F50; --module-text: #FFFFFF; }
 
 .module-section .module-number {
-  background-color: var(--module-color);
-  color: #FFFFFF;
+  background-color: var(--module-color, var(--color-primary));
+  color: var(--module-text, var(--color-bg-body));
 }
 
-/* Fallback para o módulo 1 que usa a cor primária diretamente */
-.module-section:not([class*="module-"]) .module-number {
-  background-color: var(--color-primary);
-  color: var(--color-bg-body);
-}
+
 
 .module-section .section-divider {
   background: linear-gradient(90deg, var(--module-color, var(--color-primary)) 0%, transparent 100%);
